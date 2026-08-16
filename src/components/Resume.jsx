@@ -13,7 +13,7 @@ function Resume() {
         </div>
 
         <a
-          href="/Sutharsanam_Resume.pdf"
+          href={`${import.meta.env.BASE_URL}Sutharsanam_Resume.pdf`}
           target="_blank"
           rel="noreferrer"
           className="btn btn-primary"

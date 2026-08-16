@@ -49,7 +49,7 @@ function Home() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             className="secondary-button"
             target="_blank"
             rel="noreferrer"
@@ -73,7 +73,11 @@ function Home() {
         <div className="image-glow"></div>
 
         <div className="home-image-card">
-          <img src="/profile.jpg" alt="Sutharsanam S" className="profile-image" />
+          <img
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
+            alt="Sutharsanam S"
+            className="profile-image"
+          />
         </div>
       </div>
     </div>
