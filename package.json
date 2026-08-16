@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://Sutharsanam07.github.io/Sutharsanam_Portfolio",
+  "homepage": "https://sutharsanam-portfolio.vercel.app",
   "dependencies": {
     "framer-motion": "^13.1.0",
     "lucide-react": "^1.31.0",
